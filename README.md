@@ -18,7 +18,7 @@ This project implements a Virtual Research Assistant for the ITAI 2376 Deep Lear
 - **Output**: Check token usage (`Tokens used: ...`) and PDF in Google Drive.
 
 ## Model and Code
-- **Model**: Uses `GPT-4.1 nano` ($0.10/1M input, $0.40/1M output, `max_tokens=200`) for cost-effective query processing.
+- **Model**: Uses `GPF-3.5 turbo`, maybe `GPT-4.1 nano`later ($0.10/1M input, $0.40/1M output, `max_tokens=200`) for cost-effective query processing.
 - **Core Functions** (Cell 11):
   - `process_request`: Handles queries with caching and 429 retries (uses `time`).
   - `record_feedback`: Stores feedback (1–5 scale) via `FeedbackSystem`.
